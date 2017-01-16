@@ -1,15 +1,38 @@
-{{! This is the post loop - each post will be output using this markup }}
-{{#foreach posts}}
 <article class="col-md-3 col-sm-4 no-padding box project">
-    <a href="{{url}}" class="overlay">
+    <a href="https://ughmoney.com/" class="overlay">
         <div class="box-content">
-            <h1>{{title}}</h1>
+            <h1>ughMoney</h1>
             <hr>
         </div><!-- /.box-content -->
     </a><!-- /.overlay -->
 
-    <a href="{{url}}">
-        <img src="{{image}}">
+    <a href="https://ughmoney.com/">
+        <img src="{{ asset "images/ughmoney-logo.png" }}">
     </a>
 </article><!-- /.article -->
-{{/foreach}}
+
+<article class="col-md-3 col-sm-4 no-padding box project">
+    <a href="https://github.com/dguilak/org-mode-sms-inbox" class="overlay">
+        <div class="box-content">
+            <h1>org-mode-sms-inbox</h1>
+            <hr>
+        </div><!-- /.box-content -->
+    </a><!-- /.overlay -->
+
+    <a href="https://github.com/dguilak/org-mode-sms-inbox">
+        <img src="{{ asset "images/org-mode-sms-inbox-logo.png" }}">
+    </a>
+</article><!-- /.article -->
+
+<article class="col-md-3 col-sm-4 no-padding box project">
+    <a href="http://shitty.pictures/" class="overlay">
+        <div class="box-content">
+            <h1>shitty.pictures</h1>
+            <hr>
+        </div><!-- /.box-content -->
+    </a><!-- /.overlay -->
+
+    <a href="http://shitty.pictures/">
+        <img src="{{ asset "images/shitty-pictures-logo.png" }}">
+    </a>
+</article><!-- /.article -->
